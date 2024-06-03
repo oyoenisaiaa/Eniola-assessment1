@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+   <!-- head of the page containg meta tags for seo management and links to Css and external links -->
+<link rel="stylesheet" href="./style.css">
+</head>
+<!-- the body where the  web page elements are structured-->
+<body>
+<header>
+  <!-- navigation bar -->
+    <nav>
+      <a href="/" id="logo"><img src="./images/logo.svg" alt=""></a>
+
+      <ul>
+        <button id="close">
+          <img src="./images/icon-close.svg" alt="">
+        </button>
+        <li><a href="#interactive">About</a></li>
+        <li><a href="#creations">Products</a>  </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="menu"><img src="./images/icon-hamburger.svg" alt=""></button>
+    </nav>
+    <div class="intro">
+      <div class="statement">
+        <h1>Immersive experiences that deliver</h1>
+      </div>
+    </div>
+</header>
+<!-- scroll text -->
+<section class="scroll-container">
+  <div class="scroll">
+      <div class="right-to-left">
+          <p>hypeSME Creative Studio | </p>
+          <p>Get Seen Get Known | </p>
+          <p>Turn Likes into Leads! </p>
+      </div>
+      <div class="left-to-right">
+          <p>Connect And Convert |</p>
+          <p>From Followers to Fans |</p>
+          <p>Drive Engagement, Drive Success!</p>
+      </div>
+  </div>
+</section>
+<!-- interactive section -->
+<section id="interactive">
+  <figure>
+    <img class="mobile" src="./images/mobile/image-interactive.jpg" alt="">
+    <img class="desktop" src="./images/desktop/image-interactive.jpg" alt="" >
+  </figure>
+  <div class="write-up">
+    <h1> The leader in interactive VR</h1>
+    <p> Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning 
+  creations have transformed businesses through digital experiences that bind 
+  to their brand.</p>
+  </div>
+</section>
+
+<section id="creations">
+  <h1>Our creations</h1>
+  <div class="card-list">
+    <!-- DEEP EARTH -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-deep-earth.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-deep-earth.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>Deep earth</h2>
+      </div>
+    </div>
+    <!-- NIGHT ARCADE -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-night-arcade.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-night-arcade.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>Night arcade</h2>
+      </div>
+    </div>
+    <!-- SOCCER TEAM VR -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-soccer-team.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-soccer-team.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>Soccer team VR</h2>
+      </div>
+    </div>
+    <!-- THE GRID -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-grid.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-grid.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>The grid</h2>
+      </div>
+    </div>
+    <!-- from up above vr -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-from-above.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-from-above.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>From up above VR</h2>
+      </div>
+    </div>
+    <!-- POCKET BOREALIS -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-pocket-borealis.jpg" alt="" class="desktop">
+        <img src="./images/mobilE/image-pocket-borealis.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>Pocket borealis</h2>
+      </div>
+    </div>
+    <!-- THE CURIOSITY -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-curiosity.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-curiosity.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>The curiosity</h2>
+      </div>
+    </div>
+    <!-- Make IT FISHEYE -->
+    <div class="card">
+      <figure>
+        <img src="./images/desktop/image-fisheye.jpg" alt="" class="desktop">
+        <img src="./images/mobile/image-fisheye.jpg" alt="" class="mobile">
+      </figure>
+      <div class="desc">
+        <h2>Make it fisheye</h2>
+      </div>
+    </div>
+  </div>
+  <button>See All</button>
+</section>
+  <!-- contact section -->
+  <section id="contact">
+    <div class="contact">
+        <div id="form-container">
+            <h2>Contact us</h2>
+            <form action="#" id="form">
+                <div class="form-data">
+                    <input id="fullname" name="fullname" type="text" required>
+                    <label for="fullname">FullName</label>
+                    <div class="error"></div>
+                </div>
+                <div class="form-data">
+                    <input  id="email" name="email" type="email" required>
+                    <label for="email">Email Address</label>
+                    <div class="error"></div>
+                </div>
+                <div class="form-data">
+                    <input id="tel" name="tel" type="tel" required>
+                    <label for="tel">Mobile Number</label>
+                    <div class="error"></div>
+                </div>
+
+                <label for="referral">Referral Source:</label>
+                <div class="form-data">
+                    <select id="referral" name="referral" required>
+                        <option value="select">Select</option>
+                      <option value="socialMedia">Social Media</option>
+                      <option value="google">Google</option>
+                      <option value="website">Website</option>
+                      <option value="friend">Friend</option>
+                    </select>
+                    <div class="error"></div>
+                </div>
+               
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+  
+<!-- footer -->
+<footer>
+  <div class="left">
+    <a href="/" id="logo">
+      <img src="./images/logo.svg" alt="logo">
+    </a>
+    <ul>
+      <li><a href="#interactive">About</a></li>
+      <li><a href="#creation">Products</a>  </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="right">
+    <div class="socials">
+      <a href="https://fb.me"><img src="./images/icon-facebook.svg" alt=""></a>
+      <a href="https://twitter.com"><img src="./images/icon-twitter.svg" alt=""></a>
+      <a href="https://pinterest.com"><img src="./images/icon-pinterest.svg" alt=""></a>
+      <a href="https://instagram.com"><img src="./images/icon-instagram.svg" alt=""></a>
+    </div>
+    <p> © 2021 Loopstudios. All rights reserved.</p>  
+  </div>
+
+   
+
+</footer>
+<footer> <p class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Eniola Oluwakemi Adeyemi</a>.
+</p></footer>
+  <script>
+    const menuBtn = document.querySelector ('#menu');
+    const closeBtn  =  document.querySelector ('#close');
+    const menu = document.querySelector ('nav ul');
+    const navBar = document.querySelector('nav');
+
+    menuBtn.onclick = () => {
+      menu.style.left = "0px";
+      document.body.style.overflow ='hidden';
+    }
+    closeBtn.onclick = () => {
+      menu.style.left = "-100%";
+      document.body.style.overflow ='auto';
+    }
+
+    window.addEventListener ('scroll', () => {
+      if (window.scrollY >= 300) {
+        navBar.style.position = 'fixed';
+        navBar.style.backgroundColor = 'black';
+      } else{
+        navBar.style.position ='sticky';
+        navBar.style.backgroundColor = 'transparent';
+      }
+    })
+
+  </script>
+</body>
+</html>
